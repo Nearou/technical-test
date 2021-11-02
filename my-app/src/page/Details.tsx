@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import { DetailCard } from "../components/DetailCard";
 import { Container } from "@mui/material";
-import { Ismovies } from "../App";
+import { Ismovies } from "../interfaces/movie";
 
 
 const Details = (props: { location: { state: Ismovies } }) => {

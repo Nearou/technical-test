@@ -1,6 +1,6 @@
 import { Container } from "@mui/material";
 import React, { useState } from "react";
-import { Ismovies } from "../App";
+import { Ismovies } from "../interfaces/movie";
 import { InputSearch } from "../components/InputSearch";
 import ButtonAppBar from "../components/NavBar";
 import { Results } from "../components/Results";
