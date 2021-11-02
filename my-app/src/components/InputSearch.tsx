@@ -2,7 +2,7 @@ import { TextField, Button } from "@mui/material";
 import React, { Dispatch, SetStateAction, useCallback, useRef } from "react";
 import CSS from "csstype";
 import { apiFetch } from "../utils/api";
-import { Ismovies } from "../App";
+import { Ismovies } from "../interfaces/movie";
 
 
 interface Props {

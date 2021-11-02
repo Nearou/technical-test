@@ -1,5 +1,5 @@
 import { Grid } from "@mui/material";
-import { Ismovies } from "../App";
+import { Ismovies } from "../interfaces/movie";
 import { CardMovie } from "./Card";
 
 interface Props {

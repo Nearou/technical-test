@@ -4,7 +4,7 @@ import {
     CardMedia,
     Typography,
   } from "@mui/material";
-import { Ismovies } from "../App";
+  import { Ismovies } from "../interfaces/movie";
   
   interface Props {
     movie: Ismovies

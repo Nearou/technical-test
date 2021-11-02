@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useHistory } from "react-router-dom";
-import { Ismovies } from "../App";
+import { Ismovies } from "../interfaces/movie";
 
 interface Props {
   movie: Ismovies

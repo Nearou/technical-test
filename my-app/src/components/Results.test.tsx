@@ -3,7 +3,7 @@ import Enzyme, { shallow } from "enzyme";
 import Adapter from "@wojtekmaj/enzyme-adapter-react-17";
 
 import { Results } from "./Results";
-import { Ismovies } from "../App";
+import { Ismovies } from "../interfaces/movie";
 
 Enzyme.configure({ adapter: new Adapter() });
 
